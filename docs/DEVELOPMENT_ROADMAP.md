@@ -29,11 +29,11 @@ Day 18:     Deployment (Render + Vercel + Supabase) & Demo Script
 ## Milestone Breakdown
 
 ### Milestone 1: Foundation & Security (Days 1–3)
-- [ ] Initialize FastAPI backend project structure.
-- [ ] Define **13 SQLAlchemy models** in `backend/db/models.py`.
-- [ ] Create Alembic initial migration `0001_initial_schema.py` creating all 13 tables.
-- [ ] Implement constant-time password authentication in `POST /api/v1/auth/session` using `DEMO_ACCESS_PASSWORD` and HMAC-SHA256 JWT signing with `JWT_SECRET`.
-- [ ] Implement `verify_session_token` FastAPI security dependency.
+- [x] Initialize FastAPI backend project structure.
+- [x] Define **13 SQLAlchemy models** in `backend/db/models.py`.
+- [x] Create Alembic initial migration `0001_initial_schema.py` creating all 13 tables.
+- [x] Implement constant-time password authentication in `POST /api/v1/auth/session` using `DEMO_ACCESS_PASSWORD` and HMAC-SHA256 JWT signing with `JWT_SECRET`.
+- [x] Implement `verify_session_token` FastAPI security dependency.
 
 ### Milestone 2: Document Ingestion & Async Processing (Days 4–6)
 - [ ] Implement file storage service (`StorageService`) with hash uniqueness checks.

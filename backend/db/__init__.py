@@ -1,0 +1,37 @@
+from backend.db.models import (
+    Base,
+    Client,
+    Period,
+    ReconSession,
+    Document,
+    ExtractedRecord,
+    MatchResult,
+    ReconException,
+    ExceptionRecord,
+    ExceptionReview,
+    FuzzyMatchDecision,
+    ReconSummary,
+    Report,
+    AuditLog,
+)
+from backend.db.session import engine, SessionLocal, get_db
+
+__all__ = [
+    "Base",
+    "Client",
+    "Period",
+    "ReconSession",
+    "Document",
+    "ExtractedRecord",
+    "MatchResult",
+    "ReconException",
+    "ExceptionRecord",
+    "ExceptionReview",
+    "FuzzyMatchDecision",
+    "ReconSummary",
+    "Report",
+    "AuditLog",
+    "engine",
+    "SessionLocal",
+    "get_db",
+]
